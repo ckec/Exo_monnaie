@@ -1,0 +1,8 @@
+[run]
+branch = True
+omit = *test*, *venv*, *__init__*, /usr/*
+[report]
+ignore_errors = True
+omit = *test*, *venv*, *__init__*, /usr/*
+[html]
+directory = coverage
